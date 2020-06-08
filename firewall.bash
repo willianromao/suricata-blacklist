@@ -13,7 +13,6 @@ iptables -P INPUT DROP
 iptables -P FORWARD ACCEPT
 iptables -P OUTPUT ACCEPT
 iptables -N BLACKLIST
-iptables -P BLACKLIST DROP
 
 
 # BYPASS
